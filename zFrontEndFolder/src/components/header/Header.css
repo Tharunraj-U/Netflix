@@ -1,0 +1,59 @@
+/* Header.css */
+
+/* Navbar customization */
+.navbar-custom {
+    background-color: #141414; /* Netflix's dark background color */
+    padding: 0.5rem 2rem;
+  }
+  
+  /* Navbar brand customization */
+  .navbar-brand-custom {
+    color: #e50914; /* Netflix's red color */
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand-custom .me-2 {
+    margin-right: 0.5rem;
+  }
+  
+  /* Nav link customization */
+  .nav-link-custom {
+    color: #ffffff;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .nav-link-custom:hover {
+    color: #b3b3b3; /* Slightly lighter color on hover */
+  }
+  
+  /* Button customization */
+  .btn-outline-light {
+    color: #ffffff;
+    border-color: #e50914;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .navbar-custom {
+      padding: 0.5rem 1rem;
+    }
+    .nav-link-custom {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+    .btn-outline-light {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
